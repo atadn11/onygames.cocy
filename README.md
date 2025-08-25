@@ -1,1 +1,0 @@
-# onygames.cocy
