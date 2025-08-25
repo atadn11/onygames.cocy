@@ -1,0 +1,91 @@
+body {
+  margin: 0;
+  background-color: #f0e6d2;
+  font-family: 'Tahoma', sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.container {
+  text-align: center;
+  background: #fff7e6;
+  padding: 30px 40px;
+  border-radius: 20px;
+  box-shadow: 0 0 20px #d2b48c;
+  width: 380px;
+}
+
+h1 {
+  color: #8b4513;
+  margin-bottom: 10px;
+}
+
+.instruction {
+  font-size: 16px;
+  color: #654321;
+  margin-bottom: 15px;
+}
+
+#timer {
+  font-size: 20px;
+  margin-bottom: 20px;
+  color: #8b4513;
+  font-weight: bold;
+}
+
+#biscuit-container {
+  width: 320px;
+  height: 320px;
+  margin: 0 auto;
+  position: relative;
+  user-select: none;
+}
+
+.shape-svg {
+  width: 320px;
+  height: 320px;
+  cursor: pointer;
+  user-select: none;
+}
+
+.broken-point {
+  fill: #d2691e;
+  opacity: 0.8;
+  pointer-events: none;
+  transition: opacity 0.3s ease;
+}
+
+.broken-point.broken {
+  opacity: 1;
+  fill: #a0522d;
+}
+
+#message {
+  margin-top: 25px;
+  font-size: 20px;
+  font-weight: bold;
+  min-height: 28px;
+  color: #8b4513;
+}
+
+button {
+  margin-top: 30px;
+  padding: 10px 25px;
+  font-size: 16px;
+  background-color: #8b4513;
+  border: none;
+  border-radius: 8px;
+  color: white;
+  cursor: pointer;
+  transition: background-color 0.25s ease;
+}
+
+button:hover {
+  background-color: #a05a1a;
+}
+
+.hidden {
+  display: none;
+}
